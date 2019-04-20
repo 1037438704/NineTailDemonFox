@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+//apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.1037438704'
 
 android {
     compileSdkVersion 28
@@ -18,7 +20,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
@@ -30,8 +34,8 @@ dependencies {
     api  'com.android.support.test:runner:1.0.2'
     api  'com.android.support.test.espresso:espresso-core:3.0.2'
     api  'com.kongzue.baseframework:baseframework:6.6.5'//baseAty
-//    api 'com.kongzue.dialog:dialog:2.4.9'//对话框
-//    api 'com.kongzue.baseokhttp_v3:baseokhttp_v3:3.0.9'//网络请求
-//    api 'com.kongzue.takephoto:takephoto:2.0.9'//拍照工具
-//    api 'com.kongzue.kongzueupdatesdk:kongzueupdatesdk:1.4.3'//更新框架
+    api 'com.kongzue.dialog:dialog:2.4.9'//对话框
+    api 'com.kongzue.baseokhttp_v3:baseokhttp_v3:3.0.9'//网络请求
+    api 'com.kongzue.takephoto:takephoto:2.0.9'//拍照工具
+    api 'com.kongzue.kongzueupdatesdk:kongzueupdatesdk:1.4.3'//更新框架
 }
