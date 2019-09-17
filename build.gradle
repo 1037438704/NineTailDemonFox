@@ -8,9 +8,6 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'//this
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
     }
 }
 
@@ -20,23 +17,5 @@ allprojects {
         jcenter()
         maven { url "https://jitpack.io" }
         maven{  url 'https://maven.aliyun.com/repository/public'}
-        maven {
-            credentials {
-                username 'pEMoHY'
-                password '******'
-            }
-            url 'https://repo.rdc.aliyun.com/repository/70680-release-3a1bMu/'
-        }
-        maven {
-            credentials {
-                username 'pEMoHY'
-                password '******'
-            }
-            url 'https://repo.rdc.aliyun.com/repository/70680-snapshot-L5nYCx/'
-        }
     }
-}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
 }

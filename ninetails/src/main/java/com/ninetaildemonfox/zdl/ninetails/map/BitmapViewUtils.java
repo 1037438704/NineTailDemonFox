@@ -18,7 +18,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * Created by dell-pc on 2018/11/1.
+ * 创建人： Nine tails fox
+ * 创建时间： 2019/8/1
+ * 功能描述：
+ * 联系方式：1037438704@qq.com
+ *
+ * @author NineTailDemonFox
  */
 
 public class BitmapViewUtils {

@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NineTailDemonFox.iml" filepath="$PROJECT_DIR$/NineTailDemonFox.iml" />
+      <module fileurl="file://C:\Users\Administrator\Desktop\NineTailDemonFox\NineTailDemonFox.iml" filepath="C:\Users\Administrator\Desktop\NineTailDemonFox\NineTailDemonFox.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Administrator\Desktop\NineTailDemonFox\app\app.iml" filepath="C:\Users\Administrator\Desktop\NineTailDemonFox\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/ninetails/ninetails.iml" filepath="$PROJECT_DIR$/ninetails/ninetails.iml" />
+      <module fileurl="file://C:\Users\Administrator\Desktop\NineTailDemonFox\ninetails\ninetails.iml" filepath="C:\Users\Administrator\Desktop\NineTailDemonFox\ninetails\ninetails.iml" />
     </modules>
   </component>
 </project>
